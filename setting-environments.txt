@@ -68,3 +68,13 @@ install:
 gem install sass
 
 (or sudo gem install sass)
+
+/*************************************
+
+Packages for Sublime Text
+
+*************************************/
+
+ * install package control for sublime text https://packagecontrol.io/installation#st2
+
+ * download SASS, SASS BUILD, and Emmet
