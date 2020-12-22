@@ -53,6 +53,9 @@ source ~/.git-prompt.sh
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='\[\033[1;38;5;114m\]\u \[\033[1;38;5;116m\]\w\[\033[1;38;5;204m\]$(__git_ps1)\[\033[0m\] $ '
 
+# for zsh:
+setopt PROMPT_SUBST ; PS1='%B%F{210}%n %F{75}%~%F{79}$(__git_ps1 " (%s)") %f\$%b '
+
 /*************************************
 
 Install Sass (Need Ruby first)
